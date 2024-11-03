@@ -1,120 +1,794 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
+<!-- Begin Head -->
 <head>
-    <meta charset="utf-8">
-    <title>Personal Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Template Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
-
-    <!-- Template CSS Files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/preloader.min.css" rel="stylesheet">
-    <link href="css/circle.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- CSS Skin File -->
-    <link href="css/skins/blue.css" rel="stylesheet">
-
-    <!-- Modernizr JS File -->
-    <script src="js/modernizr.custom.js"></script>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="description" content="Portfolio">
+	<meta name="keywords"
+		content="Creative, minimal, Portfolio, cv, business, Resume, Information, personal portfolio, Professional">
+	<meta name="Harnel" content="hpena">
+	<meta name="MobileOptimized" content="320">
+	<!--Srart Style -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Favicon Link -->
+	<link rel="shortcut icon" type="image/png" href="images/header/favicon.png">
 </head>
 
-<body class="home">
-<!-- Header Starts -->
-<header class="header" id="navbar-collapse-toggle">
-    <!-- Fixed Navigation Starts -->
-    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-        <li class="icon-box active">
-            <i class="fa fa-home"></i>
-            <a href="index.html">
-                <h2>Home</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-user"></i>
-            <a href="about.html">
-                <h2>About</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
-                <h2>Portfolio</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-envelope-open"></i>
-            <a href="contact.html">
-                <h2>Contact</h2>
-            </a>
-        </li>
-        <!--<li class="icon-box">
-            <i class="fa fa-comments"></i>
-            <a href="#">
-                <h2>Blog</h2>
-            </a>
-        </li>-->
-    </ul>
-    <!-- Fixed Navigation Ends -->
-    <!-- Mobile Menu Starts -->
-    <nav role="navigation" class="d-block d-lg-none">
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <!-- <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li> -->
-            </ul>
-        </div>
-    </nav>
-    <!-- Mobile Menu Ends -->
-</header>
-<!-- Header Ends -->
-<!-- Main Content Starts -->
-<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
-    <div class="color-block d-none d-lg-block"></div>
-    <div class="row home-details-container align-items-center">
-        <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-        <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
-            <div>
-                <img src="http://via.placeholder.com/300x300.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
-                <h1 class="text-uppercase poppins-font">I'm Harnel Peña.<span id="textoDinamico">web designer</span></h1>
-                <p class="open-sans-font">I'm passionate about technology, programming languages, web and mobile development. Fascinated by cybersecurity and the videogame industry, I am committed to learning and applying safe and efficient practices to create digital experiences that make a difference.</p>
-                <a class="button" href="about.html">
-                    <span class="button-text">more about me</span>
-                    <span class="button-icon fa fa-arrow-right"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Main Content Ends -->
+<body>
+	<!--Preloader Start-->
+	<div id="preloader">
+		<div id="status">
+			<img src="images/header/loader.gif" alt="loader">
+		</div>
+	</div>
+	<!--Main Wrapper Start-->
+	<div class="prt_main_wrapper">
+		<div class="prt_home_wrapper">
+			<div class="prt_logo_wrapper">
+				<a><img src="images/header/logo.png" alt="Logo" id="prt_close_tab"></a>
+			</div>
+			<div class="prt_menu_wrapper">
+				<a href="#about" class="prt_top">about</a>
+				<a href="#contact" class="prt_right">contact</a>
+				<a href="#services" class="prt_bottom">strength</a>
+				<a href="#portfolio" class="prt_left">portfolio</a>
+			</div>
+			<video autoplay muted loop id="myVideo">
+				<source src="images/dark_v.mp4" type="video/mp4">
+				Your browser does not support HTML5 video.
+			</video>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<h1>I'm Harnel Peña</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--About Wrapper Start-->
+		<div class="prt_about_wrapper ">
+			<div class="prt_close_wrapper">
+				<img src="images/header/down_arrow.png" alt="Close" class="prt_close">
+			</div>
+			<div class="container">
+				<div class="prt_about_info ">
+					<div class="row">
+						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_about_img">
+								<img src="https://dummyimage.com/370x488" alt="About">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_heading_wrapper_2">
+								<div class="prt_heading ">
+									<h1>About ME</h1>
+									<p>WHo AM i</p>
+								</div>
+							</div>
+							<div class="prt_about_details">
+								<p>I am a Systems Engineer based in Colombia, 
+									passionate about software development, 
+									video games, and cybersecurity. 
+									I am known for my adaptability and strong commitment to excellence in any work environment.
+								</p>
+								<a href="#" class="prt_btn">Download Resume Spanish</a> <a href="#" class="prt_btn">Download Resume English</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="prt_about_edulearn_wrapper ">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="prt_heading_wrapper">
+							<div class="prt_heading">
+							<br/>
+								<h1>EDucation</h1>
+								<p>learning</p>
+							</div>
+						</div>
+						<div class="prt_about_learnsection">
+							<div class="row">
+								<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_learnbox_right">
+										<div class="prt_about_learnbox_year">
+											<h1>2024</h1>
+										</div>
+										<div class="prt_about_learnbox_info">
+											<h4>System Engineer</h4>
+											<span>CUN <i class="fa fa-university" aria-hidden="true"> </i></span>
+											<p>I will graduate in December 2024.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_learnbox_left">
+										<div class="prt_about_learnbox_year">
+											<h1>2024</h1>
+										</div>
+										<div class="prt_about_learnbox_info">
+											<h4>Bachelor's degree in English as a Foreign Language</h4>
+											<span>UNAD <i class="fa fa-university" aria-hidden="true"> </i></span>
+											<p>I will graduate in December 2024.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_learnbox_right">
+										<div class="prt_about_learnbox_year">
+											<h1>2024</h1>
+										</div>
+										<div class="prt_about_learnbox_info">
+											<h4>Information Systems Analyst and Developer</h4>
+											<span>SENA</span>
+											<p>Graduated</p>
+										</div>
+									</div>
+								</div>
+								<!--<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_learnbox_left">
+										<div class="prt_about_learnbox_year">
+											<h1>2024</h1>
+										</div>
+										<div class="prt_about_learnbox_info">
+											<h4>FUllStack development</h4>
+											<span>SENA</span>
+											<p>Graduated</p>
+										</div>
+									</div>
+								</div>-->
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="prt_about_experience_wrapper ">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="prt_heading_wrapper">
+							<div class="prt_heading">
+								<h1>IT Experience</h1>
+								<p>involvement</p>
+							</div>
+						</div>
+						<div class="prt_about_experience">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_experiencebox">
+										<div class="prt_about_experience_year">
+											<h1>2021</h1>
+											<h4>July to 2022 July</h4>
+										</div>
+										<div class="prt_about_experience_info">
+											<h4>Junior IT</h4>
+											<span>Intisalud IPS</span>
+											<p>Ensure the continuous operation of IT systems and technologies,
+												perform preventive and corrective maintenance on technological equipment,
+												back up sensitive data.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_experiencebox">
+										<div class="prt_about_experience_year">
+											<h1>2022</h1>
+											<h4>Aug to 2023 Sep</h4>
+										</div>
+										<div class="prt_about_experience_info">
+											<h4>System Analyst</h4>
+											<span>JLL Obras Civiles</span>
+											<p>Design IT solutions tailored to the specific needs of the company,
+												provide technical support to users to resolve hardware and software issues,
+												train staff on the use of systems, technological tools, and procedures.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_experiencebox">
+										<div class="prt_about_experience_year">
+											<h1>2023</h1>
+											<h4>Sep to 2024 Mar</h4>
+										</div>
+										<div class="prt_about_experience_info">
+											<h4>Trainee System dev</h4>
+											<span>Ada School</span>
+											<p>Design and develop web applications,
+											Implement REST APIs to optimize communication between the frontend and backend.</p>
+										</div>
+									</div>
+								</div>
+								<!--<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+									<div class="prt_about_experiencebox">
+										<div class="prt_about_experience_year">
+											<h1>2016</h1>
+											<h4>Apr to Present</h4>
+										</div>
+										<div class="prt_about_experience_info">
+											<h4>Lead Ui/Ux Designer</h4>
+											<span>Google</span>
+											<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+												accusantium doloremque laudantium, totam rem aperiam.</p>
+										</div>
+									</div>
+								</div> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="prt_profile_info">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_profile_slider">
+								<div class="owl-carousel owl-theme">
+									<div class="item">
+										<i class="fa fa-behance pl_clr1" aria-hidden="true"></i>
+										<h4>Behance</h4>
+									</div>
+									<div class="item">
+										<i class="fa fa-dribbble pl_clr2" aria-hidden="true"></i>
+										<h4>Dribbble</h4>
+									</div>
+									<div class="item">
+										<i class="fa fa-envira pl_clr3" aria-hidden="true"></i>
+										<h4>envira</h4>
+									</div>
+									<div class="item">
+										<i class="fa fa-behance pl_clr1" aria-hidden="true"></i>
+										<h4>Behance</h4>
+									</div>
+									<div class="item">
+										<i class="fa fa-dribbble pl_clr2" aria-hidden="true"></i>
+										<h4>Dribbble</h4>
+									</div>
+									<div class="item">
+										<i class="fa fa-envira pl_clr3" aria-hidden="true"></i>
+										<h4>envira</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_heading_wrapper_2">
+								<div class="prt_heading">
+									<h1>PROFILES</h1>
+									<p>WOrks At</p>
+								</div>
+							</div>
+							<div class="prt_profile_details">
+								<p>There are many variations of passages of Lorem Ipsum available, but the majority have
+									suffered alteration in some form, by injected humour, or randomised words which
+									don't look even slightly believable. If you are going to use a passage of Lorem
+									Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
+									text. </p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+			<div class="prt_footer_wrapper  ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Copyright © 2024 <a href="#">Harnel Peña</a>. All Rights Reserved</p>
+							<ul>
+								<li><a href="https://www.facebook.com/harnel.penaloza" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://x.com/harnel9" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="https://github.com/harnelp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/harnel-pe%C3%B1a-bb689a161/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Contact Wrapper Start-->
+		<div class="prt_contact_wrapper ">
+			<div class="prt_close_wrapper">
+				<img src="images/header/right_arrow.png" alt="Close" class="prt_close">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="prt_heading_wrapper">
+							<div class="prt_heading">
+								<h1>get in touch</h1>
+								<p>contact Me</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div class="prt_contact_info">
+							<h1>How I can help you ?</h1>
+							<div class="prt_contact_form">
+								<div class="row">
+									<div class="col-12">
+										<form>
+											<div class="row">
+												<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+													<input type="text" name="first_name" placeholder="Your Name"
+														class="require">
+												</div>
+												<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+													<input type="text" name="email" placeholder="Your Email"
+														class="require" data-valid="email"
+														data-error="Email should be valid.">
+												</div>
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<input type="text" name="subject" placeholder="Subject"
+														class="require">
+												</div>
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<textarea rows="4" name="message" placeholder="Message"
+														class="require"></textarea>
+												</div>
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<div class="response"></div>
+												</div>
+												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+													<button type="button" class="prt_btn submitForm"
+														form-type="contact">submit</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+						<div class="prt_contact_map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15866.569761275156!2d-75.6557201!3d6.1785936999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1730574073892!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+					<div class="prt_contact_details">
+						<div class="row">
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="prt_contact_details_box details_box1">
+									<h4>Phone</h4>
+									<p>+57-301-363-2205<br>3013632205</p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="prt_contact_details_box details_box2">
+									<h4>Email</h4>
+									<p><a href="#">harnelp@gmail.com</a><br><a href="#">harnelp@gmail.com</a></p>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+								<div class="prt_contact_details_box details_box3">
+									<h4>Address</h4>
+									<p>Medellín<br>San Antonio de Prado</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="prt_footer_wrapper  ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Copyright © 2024 <a href="#">Harnel Peña</a>. All Rights Reserved</p>
+							<ul>
+								<li><a href="https://www.facebook.com/harnel.penaloza" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://x.com/harnel9" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="https://github.com/harnelp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/harnel-pe%C3%B1a-bb689a161/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Services Wrapper Start-->
+		<div class="prt_services_wrapper ">
+			<div class="prt_close_wrapper">
+				<img src="images/header/up_arrow.png" alt="Close" class="prt_close">
+			</div>
+			<div class="prt_services_slider_wrapper ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_heading_wrapper">
+								<div class="prt_heading">
+									<h1>What I do</h1>
+									<p>take a look</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_services_slider_imgs">
+								<img class="img_1 active" src="https://dummyimage.com/470x390" alt="Service">
+								<img class="img_2" src="https://dummyimage.com/470x390" alt="Service">
+								<img class="img_3" src="https://dummyimage.com/470x390" alt="Service">
+								<img class="img_4" src="https://dummyimage.com/470x390" alt="Service">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="row rowResponsive1">
+								<div class="col-lg-6 col-md-12">
+									<div class="prt_services_slider_text prt_img_click " id="1">
+										<img src="/images/content/1.png" alt="Service icon">
+										<h4>Software development</h4>
+										<p>Documentation is the lighthouse that guides developers in the darkness of an extensive codebase.</p>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12">
+									<div class="prt_services_slider_text prt_img_click" id="2">
+										<img src="/images/content/2.png" alt="Service icon">
+										<h4>Mobile development</h4>
+										<p>Software's future is in the cloud and on mobile devices.</p>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12">
+									<div class="prt_services_slider_text prt_img_click" id="3">
+										<img src="/images/content/3.png" alt="Service icon">
+										<h4>Game development</h4>
+										<p>Game development is a combination of art, technology, and passion.</p>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-12">
+									<div class="prt_services_slider_text prt_img_click" id="4">
+										<img src="/images/content/4.png" alt="Service icon">
+										<h4>Web Development</h4>
+										<p>Web development is the perfect combination of creativity and logic.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="prt_couter_wrapper  ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="prt_counter_box">
+								<img src="https://dummyimage.com/100x100" alt="Clients">
+								<h3 class="timer" data-from="0" data-to="95" data-speed="5000"></h3>
+								<p>Happy Clients</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="prt_counter_box">
+								<img src="https://dummyimage.com/100x100" alt="Projects">
+								<h3 class="timer" data-from="0" data-to="165" data-speed="5000"></h3>
+								<p>Project Done</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+							<div class="prt_counter_box">
+								<img src="https://dummyimage.com/100x100" alt="Awards">
+								<h3 class="timer" data-from="0" data-to="16" data-speed="5000"></h3>
+								<p>Award Won</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="prt_skills_wrapper  ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_heading_wrapper">
+								<div class="prt_heading">
+									<h1>My Skills</h1>
+									<p>Expert in</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="canvas">
+						<div class="row">
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-1"></div>
+								<h5>Python</h5>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-2"></div>
+								<h5>Java</h5>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-3"></div>
+								<h5>Html, Css & Javascript</h5>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-4"></div>
+								<h5>PHP</h5>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-4"></div>
+								<h5>Kotlin</h5>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-4"></div>
+								<h5>C#</h5>
+							</div>
+							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
+								<div class="circle" id="circles-4"></div>
+								<h5>Unity</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="prt_client_slider_wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_heading_wrapper">
+								<div class="prt_heading">
+									<h1>Clients</h1>
+									<p>Worked With</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="prt_client_slider">
+								<div class="owl-carousel owl-theme">
+									<div class="item">
+										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
+									</div>
+									<div class="item">
+										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
+									</div>
+									<div class="item">
+										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
+									</div>
+									<div class="item">
+										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
+									</div>
+									<div class="item">
+										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
+									</div>
+									<div class="item">
+										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+			<div class="prt_footer_wrapper  ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Copyright © 2024 <a href="#">Harnel Peña</a>. All Rights Reserved</p>
+							<ul>
+								<li><a href="https://www.facebook.com/harnel.penaloza" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://x.com/harnel9" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="https://github.com/harnelp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/harnel-pe%C3%B1a-bb689a161/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Portfolio Wrapper Start-->
+		<div class="prt_portfolio_wrapper ">
+			<div class="prt_close_wrapper">
+				<img src="images/header/left_arrow.png" alt="Close" class="prt_close">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="prt_heading_wrapper">
+							<div class="prt_heading">
+								<h1>Portfolio</h1>
+								<p>MY work</p>
+							</div>
+						</div>
+					</div>
+					<div class="prt_portfolio_box popup-gallery">
+						<div class="row">
 
-<!-- Template JS Files -->
-<script src="js/jquery-3.5.0.min.js"></script>
-<script src="js/preloader.min.js"></script>
-<script src="js/fm.revealator.jquery.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpGridGallery.js"></script>
-<script src="js/jquery.hoverdir.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/other.js"></script>
 
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore" style="display: block;">
+								<a class="imageopen" href="images/content/Django_app.png" title="Django app">
+									<div class="prt_portfolio_img">
+										<img src="images/content/Django_app_front.png" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click to open</h4>
+											<p>Image</p>
+										</div>
+									</div>
+								</a>
+								<a class="popup-youtube" href="#" title="Todo">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x359" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore" style="display: block;">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x448" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+								<a class="imageopen" href="images/content/port4_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x272" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore" style="display: block;">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=mFqmtn6-C6o" title="todo flask app">
+									<div class="prt_portfolio_img">
+										<img src="/images/content/Flask_app.png" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+								<a class="imageopen" href="images/content/port6_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x448" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 prt_loadmore">
+								<a class="imageopen" href="images/content/port7_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/750x359" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x360" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
+								<a class="imageopen" href="images/content/port1_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x359" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x360" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x448" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+								<a class="imageopen" href="images/content/port4_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x272" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x272" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+								<a class="imageopen" href="images/content/port6_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x448" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 prt_loadmore">
+								<a class="imageopen" href="images/content/port7_big.jpg" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/750x359" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>box mockup design</h4>
+											<p>Mockup</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
+									<div class="prt_portfolio_img">
+										<img src="https://dummyimage.com/360x360" alt="Portfolio">
+										<div class="prt_portfolio_text">
+											<h4>Click and open video</h4>
+											<p>video</p>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+								<button class="prt_btn prt_btn_portfolio" id="loadMore">load more</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="prt_footer_wrapper  ">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<p>Copyright © 2024 <a href="#">Harnel Peña</a>. All Rights Reserved</p>
+							<ul>
+								<li><a href="https://www.facebook.com/harnel.penaloza" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://x.com/harnel9" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i> </a> </li>
+								<li><a href="https://github.com/harnelp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/harnel-pe%C3%B1a-bb689a161/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Main js file Style-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/plugin/countto/jquery.countTo.js"></script>
+	<script type="text/javascript" src="js/plugin/countto/jquery.appear.js"></script>
+	<script type="text/javascript" src="js/circles.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!--Main js file End-->
 </body>
 
 </html>
