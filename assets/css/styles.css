@@ -299,3 +299,199 @@ header{
     color: #25D366;
 }
 /* ===========END CONTACT======== */
+
+/* =========== RESPONSIVE STYLES ======== */
+@media (max-width:1272px) {
+    header {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .text-logo{
+        font-size: 20px;
+    }
+
+    #Home{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .home-info-container{
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    #about{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .about-container{
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-top: 2px;
+    }
+
+    .general-titles-container{
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .about-img-container img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .about-info-container{
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .about-info-container p{
+        font-size: 15px;
+    }
+
+    .about-buttom{
+        font-size: 12px;
+        gap: 5px;
+        padding: 10px 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    .bxs-download{
+        font-size: 10px;
+    }
+
+    #Portfolio{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 150px;
+    }
+
+    .general-titles-container{
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .portfolio-grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #Contact{
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 200px;
+    }
+
+    .contact-info-container{
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-item-container{
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+        
+    }
+
+    .contact-icon{
+        font-size: 50px;
+    }
+
+    .contact-title, .contact-subtitle{
+        font-size: 20px;
+    }
+}
+@media (max-width: 668px){
+    header {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .home-info-container{
+        gap: 10px;
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .home-title {
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    .general-titles{
+        font-size: 40px;
+    }
+
+    #Portfolio{
+        height: auto;
+        margin-top: 150px;
+        padding-bottom: 260px;
+    }
+
+    .portfolio-grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #Contact{
+        height: auto;
+        margin-top: 200px;
+    }
+
+    .contact-info-container{
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        margin-top: 10px;
+
+    }
+    
+    .contact-item-container{
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-icon{
+        font-size: 40px;
+    }
+    
+    .contact-title,.contact-subtitle{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 553px){
+}
